@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="semantico.html" method="post">
+        <label for="username" >digite su nombre</label>
+        <input id="username" minlength="3" type="text"placeholder="Ingrese aqui su nombre" maxlength="15" required>
+        <br>
+        <label for="">Digite su clave</label>
+        <input type="password"placeholder="ingrese clave ">
+        <br>
+        <label for="">selecione documento</label>
+        <input type="file" accept=".jpg,.png">
+        <br>
+        <label for="">ingrese email</label>
+        <input type="email" required>
+        <br>
+        <label for="">selecciones alguna de las siguientes opciones</label>
+        <select name="opcines" id="opciones">            
+            <option value="p1">seleccione...</option>
+            <option value="p1">primera op</option>
+            <option value="p2">segunda op</option>
+        </select>
+        <br>
+        <label for="">leguaje</label>
+        <br>
+        <input type="checkbox">java
+        <br>
+        <input type="checkbox">python
+        <br>
+        <label for="">indique genero</label>
+        <br>
+        <!--radio excluyente-->
+        <input type="radio" name="genero">mas
+        <input type="radio" name="genero">fem
+        <br>
+        <!--radio no excluyente-->
+        <input type="radio" >mas
+        <input type="radio" >fem
+        <br>
+        <label for="">enviar datos</label>
+        <br>
+        <input type="submit" value="enviar">
+        <br>
+        <input type="time">
+        <br>
+        <input type="date">
+
+
+
+    </form>
+    
+
+
+</body>
+</html>
